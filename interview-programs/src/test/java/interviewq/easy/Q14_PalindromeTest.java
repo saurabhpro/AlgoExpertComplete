@@ -3,17 +3,17 @@ package interviewq.easy;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class Q13_PalindromeTest {
+public class Q14_PalindromeTest {
 
     @Test
     void isPalindrome() {
-        final var res = Q13_Palindrome.isPalindrome("abcdcba");
+        final var res = Q14_Palindrome.isPalindrome("abcdcba");
         Assertions.assertTrue(res);
     }
 
     @Test
     void isPalindromeRecursive() {
-        final var res = Q13_Palindrome.isPalindromeRecursive("abcdcba", 0);
+        final var res = Q14_Palindrome.isPalindromeRecursive("abcdcba", 0);
         Assertions.assertTrue(res);
     }
 }

@@ -1,6 +1,6 @@
 package interviewq.easy;
 
-public class Q13_Palindrome {
+public class Q14_Palindrome {
 
     // O(n) space solution | O(1) space
     public static boolean isPalindrome(String str) {

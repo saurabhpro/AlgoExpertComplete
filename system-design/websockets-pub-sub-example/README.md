@@ -11,6 +11,7 @@ Connect to port 3001
 ^C
 ```
 
+![](terminals.png)
 ## step T2,T3,T4 - Add subscribers
 
 ```js

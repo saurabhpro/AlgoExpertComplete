@@ -1,0 +1,189 @@
+﻿[
+  {
+    "n": {
+"identity": 0,
+"labels": [
+        "Company"
+      ],
+"properties": {
+"name": "Facebook"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 1,
+"labels": [
+        "Candidate"
+      ],
+"properties": {
+"name": "Saurabh"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 2,
+"labels": [
+        "Candidate"
+      ],
+"properties": {
+"name": "Amrita"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 3,
+"labels": [
+        "Candidate"
+      ],
+"properties": {
+"name": "Divya"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 4,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Alex"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 5,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Meghan"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 6,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Marli"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 7,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Sandeep"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 8,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Molly"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 9,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Akshay"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 10,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Aditya"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 11,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Brandon"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 12,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Pedro"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 13,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Ryan"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 14,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Xi"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 15,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Simran"
+      }
+    }
+  },
+  {
+    "n": {
+"identity": 16,
+"labels": [
+        "Interviewer"
+      ],
+"properties": {
+"name": "Amanda"
+      }
+    }
+  }
+]
