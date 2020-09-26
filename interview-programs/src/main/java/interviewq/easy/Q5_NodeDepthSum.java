@@ -1,6 +1,6 @@
 package interviewq.easy;
 
-public class Q4_NodeDepthSum {
+public class Q5_NodeDepthSum {
 
 
     public static int nodeDepths(BinaryTree root) {

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-class Q2_BSTMinDifferenceNodeTest {
+class Q3_BSTMinDifferenceNodeTest {
 
     private static MyBST.BSTNode root;
 
@@ -26,14 +26,14 @@ class Q2_BSTMinDifferenceNodeTest {
 
     @Test
     void findClosestValueInBst() {
-        final var actual = Q2_BSTMinDifferenceNode.findClosestValueInBst(root, 11);
+        final var actual = Q3_BSTMinDifferenceNode.findClosestValueInBst(root, 11);
 
         Assertions.assertEquals(10, actual);
     }
 
     @Test
     void findClosestValueInBstRecursive() {
-        final var actual = Q2_BSTMinDifferenceNode.findClosestValueInBstRecursive(root, 11);
+        final var actual = Q3_BSTMinDifferenceNode.findClosestValueInBstRecursive(root, 11);
 
         Assertions.assertEquals(10, actual);
     }

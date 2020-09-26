@@ -2,7 +2,7 @@ package interviewq.easy;
 
 import java.util.List;
 
-public class Q7_ProductSum {
+public class Q8_ProductSum {
 
     // Tip: You can use `element instanceof ArrayList` to check whether an item
     // is an array or an integer.

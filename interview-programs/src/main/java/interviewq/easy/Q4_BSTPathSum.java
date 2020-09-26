@@ -3,7 +3,7 @@ package interviewq.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q3_BSTPathSum {
+public class Q4_BSTPathSum {
     /**
      * O (n) time |
      * O (n) space ( O (n) for maximum leaf nodes so n/2 branch sums + O (log n) for storing path height of tree recursions)

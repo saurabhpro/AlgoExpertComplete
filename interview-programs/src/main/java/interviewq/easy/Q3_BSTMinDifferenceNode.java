@@ -2,7 +2,7 @@ package interviewq.easy;
 
 import baseds.MyBST;
 
-public class Q2_BSTMinDifferenceNode {
+public class Q3_BSTMinDifferenceNode {
     static int closestMatch = -1;
 
     /**

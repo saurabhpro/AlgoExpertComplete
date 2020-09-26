@@ -20,6 +20,18 @@ public class Q12_InsertionSort {
         return array;
     }
 
+    private static void swap(int[] arr, int i, int j) {
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+    }
+
+    public static void main(String[] args) {
+        int[] sort = insertionSort(new int[]{1, 3, 2});
+        System.out.println(Arrays.toString(sort));
+
+    }
+
     // O(n log n) time
     public void binaryInsertionSort(int[] array) {
         for (int counter = 1; counter < array.length; counter++) {
@@ -35,18 +47,6 @@ public class Q12_InsertionSort {
             // Placing element at its correct location
             array[j] = key;
         }
-    }
-
-    private static void swap(int[] arr, int i, int j) {
-        int tmp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = tmp;
-    }
-
-    public static void main(String[] args) {
-        int[] sort = insertionSort(new int[]{1, 3, 2});
-        System.out.println(Arrays.toString(sort));
-
     }
 
 }

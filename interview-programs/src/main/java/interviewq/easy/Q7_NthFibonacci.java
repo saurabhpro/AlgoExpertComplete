@@ -3,7 +3,7 @@ package interviewq.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q6_NthFibonacci {
+public class Q7_NthFibonacci {
 
     public static int getNthFib(int n) {
 
