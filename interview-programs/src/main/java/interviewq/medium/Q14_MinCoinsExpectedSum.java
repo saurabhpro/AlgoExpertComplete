@@ -3,7 +3,7 @@ package interviewq.medium;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class Q11_MinCoinsExpectedSum {
+public class Q14_MinCoinsExpectedSum {
 
     // O(n d) time and O(n) space where n is the expected sum value
     public static int minCoinsAlgoExpertSolution(int expectedSum, int[] coins) {
