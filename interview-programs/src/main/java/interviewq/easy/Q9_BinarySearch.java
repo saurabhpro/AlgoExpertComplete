@@ -18,7 +18,9 @@ public class Q9_BinarySearch {
         }
 
         // find and check mid
-        int mid = (end + start) / 2;
+        // int mid = (end + start) / 2; - this will overflow for end+start  > Integer.maximum
+        int mid = (end + start) >>> 1;
+        System.out.println(mid);
         int potentialMatch = array[mid];
 
         if (target == potentialMatch) {
@@ -37,5 +39,9 @@ public class Q9_BinarySearch {
 
         int res = binarySearch(array, 33);
         System.out.println("Expected index of value 33 = " + res);
+        System.out.println(Integer.MAX_VALUE + " " + Integer.toBinaryString(Integer.MAX_VALUE));
+        System.out.println((Integer.MAX_VALUE >>> 1) + " " + Integer.toBinaryString(Integer.MAX_VALUE >>> 1));
+        System.out.println((Integer.MAX_VALUE + 1) + " " + Integer.toBinaryString(Integer.MAX_VALUE + 1));
+        System.out.println(((Integer.MAX_VALUE + 1) >>> 1) + " " + Integer.toBinaryString((Integer.MAX_VALUE + 1) >>> 1));
     }
 }
