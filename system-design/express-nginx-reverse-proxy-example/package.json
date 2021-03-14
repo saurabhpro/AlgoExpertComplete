@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nginx": "0.0.0"
+    "nginx": "1.0.0"
   },
   "type":"module"
 }
