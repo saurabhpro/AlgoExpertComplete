@@ -6,8 +6,8 @@ import java.util.Random;
 
 public class AsymptoticDemoTest {
 
-    private long[] arr = new long[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    private long[] arrBig;
+    private final long[] arr = new long[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    private final long[] arrBig;
 
     AsymptoticDemoTest() {
         Random random = new Random();

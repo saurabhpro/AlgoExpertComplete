@@ -3,7 +3,6 @@ package interviewq.easy;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -13,8 +12,8 @@ class ClassPhotoArrangementTest {
     void isPossible() {
 
         boolean actual = ClassPhotoArrangement.findIfPhotoPossible(
-                List.of(5, 8, 1, 3, 4),
-                List.of(6, 9, 2, 4, 5)
+                Arrays.asList(5, 8, 1, 3, 4),
+                Arrays.asList(6, 9, 2, 4, 5)
         );
 
         assertTrue(actual);

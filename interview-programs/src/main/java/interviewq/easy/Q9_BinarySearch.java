@@ -34,6 +34,7 @@ public class Q9_BinarySearch {
         }
     }
 
+    @SuppressWarnings("NumericOverflow")
     public static void main(String[] args) {
         int[] array = {0, 1, 21, 33, 45, 45, 61, 71, 72, 73};
 

@@ -47,7 +47,7 @@ public class Q16_KthNodeDeletion {
         }
 
         public List<Integer> getNodesInArray() {
-            List<Integer> nodes = new ArrayList<Integer>();
+            List<Integer> nodes = new ArrayList<>();
             LinkedList current = this;
             while (current != null) {
                 nodes.add(current.value);

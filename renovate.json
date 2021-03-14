@@ -1,15 +1,18 @@
 {
-  "groupName": "update dependencies",
+  "groupName": "all dependencies",
   "separateMajorMinor": false,
-  "groupSlug": "update-dependencies",
+  "groupSlug": "all",
   "packageRules": [
     {
       "packagePatterns": [
         "*"
       ],
-      "groupName": "update dependencies",
-      "groupSlug": "update-dependencies"
+      "groupName": "all dependencies",
+      "groupSlug": "all"
     }
+  ],
+  "extends": [
+    "schedule:earlyMondays"
   ],
   "ignoreDeps": []
 }
