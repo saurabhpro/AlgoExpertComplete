@@ -1,0 +1,15 @@
+{
+  "groupName": "update dependencies",
+  "separateMajorMinor": false,
+  "groupSlug": "update-dependencies",
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "groupName": "update dependencies",
+      "groupSlug": "update-dependencies"
+    }
+  ],
+  "ignoreDeps": []
+}
