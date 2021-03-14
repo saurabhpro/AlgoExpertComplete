@@ -1,3 +1,3 @@
-![build](https://github.com/saurabhpro/AlgoExpertComplete/actions/workflows/main.yml/badge.svg)
+![build](https://github.com/saurabhpro/AlgoExpertComplete/actions/workflows/maven.yml/badge.svg)
 
 # AlgoExpertComplete
